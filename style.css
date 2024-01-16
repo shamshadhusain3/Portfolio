@@ -360,6 +360,9 @@ nav a :hover {
     transition: 0.2s ease-in-out;
 
 }
+.card img{
+object-fit:cover
+}
 
 .card :hover {
     transform: scale(1.05);
