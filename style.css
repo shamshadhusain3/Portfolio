@@ -362,7 +362,9 @@ nav a :hover {
 
 }
 .card img{
-object-fit:cover
+object-fit:cover;
+     width: 320px;
+    height:360px
 }
 
 .card :hover {
