@@ -347,13 +347,14 @@ nav a :hover {
 
 .griditem {
     display: grid;
+    border-radius: 10px;
     place-items: center;
     box-shadow: 5px 5px 5px rgb(95, 94, 94);
 }
 
 .card {
     width: 320px;
-    height:360px
+    height:360px;
 
 
     border-radius: 0.5rem;
@@ -386,13 +387,15 @@ object-fit:cover;
     margin-bottom: -6.2rem;
     transform: translateY(100px);
 
+
 }
 
 .card:hover .gridcontent {
     background: white;
     color: var(--dark-color);
     transform: translateY(0px);
-    transition: 0.3s ease-in-out;
+    transition: transform 0.7s ease-in-out;
+
 }
 
 .gridcontent h3 {
@@ -417,7 +420,7 @@ object-fit:cover;
 
 .top_contact {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 1rem;
     font-size: 4rem;
 }
@@ -433,14 +436,18 @@ object-fit:cover;
     text-align: center;
 }
 #contact{
-    display: flex;
+    /* display: flex; */
   
 }
+.form1{margin-top:20px ;}
 
 .contact_way {
     display: flex;
     gap: 2rem;
 
+}
+.name{
+    text-align: center;
 }
  input{
     margin-top: 12px;
