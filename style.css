@@ -37,19 +37,29 @@ body {
 
 }
 .start{
-margin-left:-50px;
+/* margin-left:-50px;
+ */
+ display: flex;
+ width: 100% !important;
+ justify-content: start;
 }
 .start h4{
     font-size:3.5rem;
 }
-#projects h1{
-    font-size:6.5rem;
-}
+ /* h1{
+    font-size:5.5rem;
+} */
 .contact .container .top_contact,.bottom_contact{
-    font-size:3rem;
+    font-size:2.5rem;
 }
-.contact .container h2{
+#contact .container h2{
     font-size:5rem;
+}
+#service h1{
+    font-size: 5.5rem;
+}
+#service h4{
+    font-size: 3rem;
 }
 
 body {
@@ -435,6 +445,8 @@ object-fit:cover;
 
 .top_contact {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     /* flex-direction: column; */
     gap: 1rem;
     font-size: 4rem;
@@ -455,11 +467,15 @@ object-fit:cover;
   
 }
 .form1{margin-top:20px ;}
+form .name{
+    font-size: 3rem;
+}
+
 
 .contact_way {
     display: flex;
     gap: 2rem;
-
+font-size: 3rem;
 }
 .name{
     text-align: center;
@@ -491,7 +507,7 @@ a {
 
 footer {
     background: var(--darker-color);
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 4rem;
     text-align: center;
     margin-bottom: 3rem;
