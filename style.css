@@ -36,6 +36,21 @@ body {
     color: white;
 
 }
+.start{
+margin-left:-50px;
+}
+.start h4{
+    font-size:3.5rem;
+}
+#projects h1{
+    font-size:6.5rem;
+}
+.contact .container .top_contact,.bottom_contact{
+    font-size:3rem;
+}
+.contact .container h2{
+    font-size:5rem;
+}
 
 body {
     font-size: 1.4rem;
