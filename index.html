@@ -339,12 +339,12 @@
             <div class="form1">
                 <form action="">
                     <div class="name">Send a Message</div>
-                    <input type="text" name="name" placeholder="Enter your name"><br>
+                    <input type="text" name="name" id="fname" placeholder="Enter your name"><br>
                     
-                    <input type="email" name="email" placeholder="Enter your email"><br>
-                    <textarea name="address" id="address" cols="30" rows="10" placeholder='Address'></textarea>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+                    <textarea name="msg"  id="msg" cols="30" rows="10" placeholder='Message'></textarea>
                     <div>
-                        <input type="submit" placeholder="Send">
+                        <input type="submit"  placeholder="Send">
                     </div>
                    
                 </form>
@@ -359,9 +359,11 @@
 
  </div>
 <script src="resp.js"></script>
-<script type="text/javascript" src="js\port.js"></script>
+<!-- <script type="text/javascript" src="js\port.js"></script> -->
 
 <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
 <script>
 	var typed = new Typed(".name", {
 		strings:["Shamshad husain","Łearner.","Ŵeb Ðeveloper.","Ƥrogrammer.",],
@@ -371,6 +373,28 @@
 	});
 
 </script>
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script src="script.js"></script>
+
+<!-- chat bot -->
+
+<script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "09c1950c-d4ca-4181-9204-d7b198bda97a", // The ID of this integration.
+      region: "au-syd", // The region your integration is hosted in.
+      serviceInstanceID: "d71e8d2c-ae8c-4dea-b45b-90acd486e4b9", // The ID of your service instance.
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+
 </body>
 
 </html>
