@@ -150,6 +150,7 @@ nav a :hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 100vh;
     border-bottom: 0.4rem solid var(--lighting-color);
 }
 .heroimg{
@@ -238,6 +239,7 @@ nav a :hover {
 /* service */
 #service{
     background-color: var(--darker-color);
+    height: 100vh;
 }
 
 .position-relative {
@@ -503,6 +505,12 @@ i {
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+.d{
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+
 }
 
 footer {
