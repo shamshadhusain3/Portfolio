@@ -180,9 +180,9 @@ nav a :hover {
 
 
 .herocontent {
-    display: grid;
+   display: grid;
     place-items: center;
-    width:45%;
+    width: 43%;
 }
 
 #hero h1 {
