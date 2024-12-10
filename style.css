@@ -160,6 +160,16 @@ nav a :hover {
     flex-direction: column;
     margin-bottom: 15px;
 }
+.heroimg img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    /* border: 2px dashed white; */
+    -webkit-box-shadow: 16px 0px 5px -5px rgba(237,217,102,0.88);
+-moz-box-shadow: 16px 0px 5px -5px rgba(237,217,102,0.88);
+box-shadow: 16px 0px 5px -5px rgba(237,217,102,0.88);
+
+}
 .btn{
     margin: 10px 0;
 }
@@ -362,73 +372,7 @@ nav a :hover {
 
 }
 
-/* .project {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 3rem;
-   
-    
 
-}
-
-.griditem {
-    display: grid;
-    border-radius: 10px;
-    place-items: center;
-    box-shadow: 5px 5px 5px rgb(95, 94, 94);
-}
-
-.card {
-    width: 320px;
-    height:360px;
-
-
-    border-radius: 0.5rem;
-    overflow: hidden;
-    transition: 0.2s ease-in-out;
-
-}
-.card img{
-object-fit:cover;
-     width: 320px;
-    height:360px
-}
-
-.card :hover {
-    transform: scale(1.05);
-    transition: 1s ease-in-out;
-
-}
-
-.card :hover img {
-    transform: scale(1.05);
-    transition: 0.3s ease-in-out;
-    opacity: 0.8;
-}
-
-.gridcontent {
-    padding: 2rem;
-    position: relative;
-    top: -6.2rem;
-    margin-bottom: -6.2rem;
-    transform: translateY(100px);
-
-
-}
-
-.card:hover .gridcontent {
-    background: white;
-    color: var(--dark-color);
-    transform: translateY(0px);
-    transition: transform 0.7s ease-in-out;
-
-}
-
-.gridcontent h3 {
-    text-align: center;
-
-
-} */
 
 
 
@@ -629,6 +573,11 @@ footer {
         display: flex;
        flex-direction: column;
     }
+    .heroimg img{
+        height: 450px;
+        width: 450px;
+        object-fit: cover;
+    }
 
     
 }
@@ -671,6 +620,7 @@ footer {
         height: 80vh;
         padding: 20px 20px;
     }
+    
    
 }
 
@@ -696,6 +646,11 @@ footer {
    
     width: 33rem;
  }
+ .heroimg img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
 
 }
 
